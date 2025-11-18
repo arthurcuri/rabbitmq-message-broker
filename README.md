@@ -1,4 +1,6 @@
-# ![RabbitMQ](../RabbitMQ.png) Lista de Compras - Microsserviços com RabbitMQ
+# Lista de Compras - Microsserviços com RabbitMQ
+
+![RabbitMQ](RabbitMQ.png)
 
 Sistema de microsserviços de Lista de Compras com mensageria assíncrona implementada usando RabbitMQ para desacoplar operações críticas do fluxo principal.
 
