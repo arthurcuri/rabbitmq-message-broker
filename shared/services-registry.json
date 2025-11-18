@@ -3,27 +3,27 @@
     "url": "http://localhost:3003",
     "host": "localhost",
     "port": 3003,
-    "registeredAt": 1763434954279,
-    "lastHealthCheck": 1763435017250,
+    "registeredAt": 1763435150420,
+    "lastHealthCheck": 1763435333419,
     "healthy": true,
-    "pid": 65582
+    "pid": 69207
   },
   "user-service": {
     "url": "http://localhost:3001",
     "host": "localhost",
     "port": 3001,
-    "registeredAt": 1763434954265,
-    "lastHealthCheck": 1763435017253,
+    "registeredAt": 1763435150406,
+    "lastHealthCheck": 1763435333421,
     "healthy": true,
-    "pid": 65585
+    "pid": 69191
   },
   "list-service": {
     "url": "http://localhost:3002",
     "host": "localhost",
     "port": 3002,
-    "registeredAt": 1763434954263,
-    "lastHealthCheck": 1763435017257,
+    "registeredAt": 1763435150410,
+    "lastHealthCheck": 1763435333424,
     "healthy": true,
-    "pid": 65584
+    "pid": 69193
   }
 }

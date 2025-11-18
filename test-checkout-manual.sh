@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "🧪 TESTE DE CHECKOUT COM RABBITMQ"
+echo "TESTE DE CHECKOUT COM RABBITMQ"
 echo ""
 
-echo "1️⃣  Registrando usuário de teste..."
+echo "1. Registrando usuário de teste..."
 TS=$(date +%s)
 EMAIL="teste_${TS}@example.com"
 
@@ -17,10 +17,10 @@ REGISTER=$(curl -s -X POST http://localhost:3001/auth/register \
     \"lastName\": \"Checkout\"
   }")
 
-echo "✅ Usuário registrado"
+echo "Usuario registrado"
 echo ""
 
-echo "2️⃣  Obtendo token..."
+echo "2. Obtendo token..."
 TOKEN=$(echo $REGISTER | grep -o '"token":"[^"]*' | cut -d'"' -f4)
 
 if [ -z "$TOKEN" ]; then
@@ -28,10 +28,10 @@ if [ -z "$TOKEN" ]; then
   exit 1
 fi
 
-echo "✅ Token obtido"
+echo "Token obtido"
 echo ""
 
-echo "3️⃣  Criando lista..."
+echo "3. Criando lista..."
 CREATE_LIST=$(curl -s -X POST http://localhost:3002/lists \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $TOKEN" \
@@ -47,10 +47,10 @@ if [ -z "$LIST_ID" ]; then
   exit 1
 fi
 
-echo "✅ Lista criada: $LIST_ID"
+echo "Lista criada: $LIST_ID"
 echo ""
 
-echo "4️⃣  Adicionando itens..."
+echo "4. Adicionando itens..."
 curl -s -X POST "http://localhost:3002/lists/${LIST_ID}/items" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $TOKEN" \
@@ -84,19 +84,19 @@ curl -s -X POST "http://localhost:3002/lists/${LIST_ID}/items" \
     "estimatedPrice": 12.00
   }' > /dev/null
 
-echo "✅ Itens adicionados"
+echo "Itens adicionados"
 echo ""
 
-echo "5️⃣  🚀 FAZENDO CHECKOUT (deve retornar 202 Accepted)..."
+echo "5. FAZENDO CHECKOUT (deve retornar 202 Accepted)..."
 echo ""
 CHECKOUT=$(curl -s -w "\nHTTP_CODE:%{http_code}" -X POST "http://localhost:3002/lists/${LIST_ID}/checkout" \
   -H "Authorization: Bearer $TOKEN")
 
 echo "$CHECKOUT"
 echo ""
-echo "🎉 SUCESSO!"
+echo "SUCESSO!"
 echo ""
-echo "👀 AGORA VERIFIQUE:"
+echo "AGORA VERIFIQUE:"
 echo "   1. Terminal dos CONSUMERS - deve mostrar logs de processamento"
 echo "   2. RabbitMQ Management (http://localhost:15672)"
 echo "      - Aba Queues: notification_queue e analytics_queue"
