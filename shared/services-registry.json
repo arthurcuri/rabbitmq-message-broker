@@ -1,0 +1,29 @@
+{
+  "item-service": {
+    "url": "http://localhost:3003",
+    "host": "localhost",
+    "port": 3003,
+    "registeredAt": 1763434954279,
+    "lastHealthCheck": 1763435017250,
+    "healthy": true,
+    "pid": 65582
+  },
+  "user-service": {
+    "url": "http://localhost:3001",
+    "host": "localhost",
+    "port": 3001,
+    "registeredAt": 1763434954265,
+    "lastHealthCheck": 1763435017253,
+    "healthy": true,
+    "pid": 65585
+  },
+  "list-service": {
+    "url": "http://localhost:3002",
+    "host": "localhost",
+    "port": 3002,
+    "registeredAt": 1763434954263,
+    "lastHealthCheck": 1763435017257,
+    "healthy": true,
+    "pid": 65584
+  }
+}

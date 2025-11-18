@@ -1,0 +1,239 @@
+[
+  {
+    "id": "5bcb8b9c-707b-41a8-9f68-27f74e1a8437",
+    "email": "admin@microservices.com",
+    "username": "admin",
+    "password": "$2a$12$ITiI7QrlChGCewlcByfXP.nrEP6Y8vVKjmYL8b3/k3qWRVMw.N/HS",
+    "firstName": "Administrador",
+    "lastName": "Sistema",
+    "role": "admin",
+    "status": "active",
+    "createdAt": "2025-09-16T01:42:24.730Z",
+    "updatedAt": "2025-09-16T01:42:24.731Z"
+  },
+  {
+    "id": "47b5bd8f-4cf3-4e80-a29c-a8e79694d5b9",
+    "email": "teste_1763434577@example.com",
+    "username": "teste_1763434577",
+    "password": "$2a$12$kH/4azU4xqGj71HrlSyTA.u2ctwDbDJ91/YkjvKRjshbIrJkw8qq2",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T02:56:17.631Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T02:56:17.632Z",
+    "updatedAt": "2025-11-18T02:56:17.632Z"
+  },
+  {
+    "id": "fc9612f2-47ac-4c26-994a-fbda65986402",
+    "email": "teste_1763434645@example.com",
+    "username": "teste_1763434645",
+    "password": "$2a$12$F1I8PsQTsBnVFjnbNhm/h./T7E9Ve3V5Bh9icc2VOKXZTkMCE/U4.",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T02:57:25.781Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T02:57:25.782Z",
+    "updatedAt": "2025-11-18T02:57:25.782Z"
+  },
+  {
+    "id": "e339e4a0-99f2-488d-bed8-4687abebaf57",
+    "email": "teste_1763434663@example.com",
+    "username": "teste_1763434663",
+    "password": "$2a$12$wMgHaWco1igMbCBkXXVCJOZj9Yu/Hs3nbCKayUZnMQqUJ6/3S3Emq",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T02:57:43.780Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T02:57:43.780Z",
+    "updatedAt": "2025-11-18T02:57:43.780Z"
+  },
+  {
+    "id": "a9b8001f-b19f-4ef7-9517-0f6766e52c63",
+    "email": "teste_1763434670@example.com",
+    "username": "teste_1763434670",
+    "password": "$2a$12$pTX.hbkjbJkogEUduQpFru4GbE6YcKTqzIdFDt7.Gs9gwhrSUzcW.",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T02:57:50.620Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T02:57:50.621Z",
+    "updatedAt": "2025-11-18T02:57:50.621Z"
+  },
+  {
+    "id": "78c9ce21-4541-4870-adc5-60a312a86d65",
+    "email": "teste_1763434682@example.com",
+    "username": "teste_1763434682",
+    "password": "$2a$12$zgseJpohia247yCZbXplFeoOtCE.qzgB5yJK9cShwZ71IPRJ.f/8C",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T02:58:03.049Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T02:58:03.049Z",
+    "updatedAt": "2025-11-18T02:58:03.049Z"
+  },
+  {
+    "id": "25a944d4-a931-4eef-8221-65a39e773907",
+    "email": "teste_1763434694@example.com",
+    "username": "teste_1763434694",
+    "password": "$2a$12$omVER6H400Go.G5R7AafjurdgsxbgMVT/NJoP0.YfMgz50NIE7TJa",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T02:58:14.590Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T02:58:14.591Z",
+    "updatedAt": "2025-11-18T02:58:14.591Z"
+  },
+  {
+    "id": "411b6427-7632-4ef4-85fa-467f01bc0362",
+    "email": "teste_1763434913@example.com",
+    "username": "teste_1763434913",
+    "password": "$2a$12$2lLZ19Dy4YvYzNzJ1uj0Y.7iBRv47DQsvtkNrU9dsPoUSNvj2Nm/.",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T03:01:54.154Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T03:01:54.154Z",
+    "updatedAt": "2025-11-18T03:01:54.154Z"
+  },
+  {
+    "id": "ae4c4740-d0cd-4f40-8ba1-5cae4436dd5f",
+    "email": "teste_1763434964@example.com",
+    "username": "teste_1763434964",
+    "password": "$2a$12$XcaY317tV37Vwp8ebjzuUOKqnrolQcYrmR9xXf0Jo1wbEQrW7QnLC",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T03:02:44.782Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T03:02:44.782Z",
+    "updatedAt": "2025-11-18T03:02:44.782Z"
+  },
+  {
+    "id": "dce532d5-f982-4f67-8d57-83324f04c45c",
+    "email": "teste_1763435003@example.com",
+    "username": "teste_1763435003",
+    "password": "$2a$12$kbVqvJdC0oVm71Jk7xgtZOQDKrwsBavr6KW24VI4Y2U/16FU8btHW",
+    "firstName": "Teste",
+    "lastName": "Checkout",
+    "role": "user",
+    "status": "active",
+    "profile": {
+      "bio": null,
+      "avatar": null,
+      "preferences": {
+        "theme": "light",
+        "language": "pt-BR"
+      }
+    },
+    "metadata": {
+      "registrationDate": "2025-11-18T03:03:23.499Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    "createdAt": "2025-11-18T03:03:23.499Z",
+    "updatedAt": "2025-11-18T03:03:23.499Z"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "953af2e2-0ac4-4f43-b81a-d3c343588f8c",
+    "userId": "user-demo-1",
+    "name": "Lista de Compras da Semana",
+    "description": "Lista básica para compras semanais",
+    "status": "active",
+    "items": [
+      {
+        "itemId": "item-1",
+        "itemName": "Arroz Branco",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 9,
+        "purchased": false,
+        "notes": "Marca Tio João preferencial",
+        "addedAt": "2025-09-16T02:15:19.138Z"
+      },
+      {
+        "itemId": "item-2",
+        "itemName": "Feijão Preto",
+        "quantity": 1,
+        "unit": "kg",
+        "estimatedPrice": 6.2,
+        "purchased": false,
+        "notes": "",
+        "addedAt": "2025-09-16T02:15:19.138Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 2,
+      "purchasedItems": 0,
+      "estimatedTotal": 15.2
+    },
+    "createdAt": "2025-09-16T02:15:19.138Z",
+    "updatedAt": "2025-09-16T02:15:19.138Z"
+  },
+  {
+    "id": "701a2030-ba25-402b-a458-582322b056ea",
+    "userId": "ae4c4740-d0cd-4f40-8ba1-5cae4436dd5f",
+    "name": "Lista de Teste Checkout",
+    "description": "Teste de mensageria RabbitMQ",
+    "status": "completed",
+    "items": [
+      {
+        "itemId": "i1",
+        "itemName": "Arroz",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 15.9,
+        "purchased": false,
+        "notes": "",
+        "addedAt": "2025-11-18T03:02:44.816Z"
+      },
+      {
+        "itemId": "i2",
+        "itemName": "Feijão",
+        "quantity": 1,
+        "unit": "kg",
+        "estimatedPrice": 8.5,
+        "purchased": false,
+        "notes": "",
+        "addedAt": "2025-11-18T03:02:44.825Z"
+      },
+      {
+        "itemId": "i3",
+        "itemName": "Café",
+        "quantity": 1,
+        "unit": "pacote",
+        "estimatedPrice": 12,
+        "purchased": false,
+        "notes": "",
+        "addedAt": "2025-11-18T03:02:44.833Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 3,
+      "purchasedItems": 0,
+      "estimatedTotal": 36.4
+    },
+    "createdAt": "2025-11-18T03:02:44.804Z",
+    "updatedAt": "2025-11-18T03:02:44.842Z",
+    "completedAt": "2025-11-18T03:02:44.842Z"
+  },
+  {
+    "id": "a12caf1b-acac-4901-8a04-85ba2fc7f51f",
+    "userId": "dce532d5-f982-4f67-8d57-83324f04c45c",
+    "name": "Lista de Teste Checkout",
+    "description": "Teste de mensageria RabbitMQ",
+    "status": "completed",
+    "items": [
+      {
+        "itemId": "i1",
+        "itemName": "Arroz",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 15.9,
+        "purchased": false,
+        "notes": "",
+        "addedAt": "2025-11-18T03:03:23.526Z"
+      },
+      {
+        "itemId": "i2",
+        "itemName": "Feijão",
+        "quantity": 1,
+        "unit": "kg",
+        "estimatedPrice": 8.5,
+        "purchased": false,
+        "notes": "",
+        "addedAt": "2025-11-18T03:03:23.534Z"
+      },
+      {
+        "itemId": "i3",
+        "itemName": "Café",
+        "quantity": 1,
+        "unit": "pacote",
+        "estimatedPrice": 12,
+        "purchased": false,
+        "notes": "",
+        "addedAt": "2025-11-18T03:03:23.546Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 3,
+      "purchasedItems": 0,
+      "estimatedTotal": 36.4
+    },
+    "createdAt": "2025-11-18T03:03:23.514Z",
+    "updatedAt": "2025-11-18T03:03:23.556Z",
+    "completedAt": "2025-11-18T03:03:23.556Z"
+  }
+]
